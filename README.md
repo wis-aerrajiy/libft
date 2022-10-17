@@ -1,4 +1,8 @@
 # libft
+
+<pre>
+  lear, dont copy
+</pre>
 in 42Network the importent * is dont use anything u dont build it by your self
 
 # LIBFT
