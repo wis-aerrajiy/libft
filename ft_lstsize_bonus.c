@@ -6,7 +6,7 @@
 /*   By: aerrajiy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 13:15:44 by aerrajiy          #+#    #+#             */
-/*   Updated: 2022/10/17 18:31:49 by aerrajiy         ###   ########.fr       */
+/*   Updated: 2022/10/18 21:15:25 by aerrajiy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,9 @@ int	ft_lstsize(t_list *lst)
 {
 	t_list	*clst;
 	int		i;
-
+	
+	if (!lst)
+		return 0;
 	clst = lst;
 	i = 0;
 	while (clst != NULL)

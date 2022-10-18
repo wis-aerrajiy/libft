@@ -6,7 +6,7 @@
 /*   By: aerrajiy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 02:30:57 by aerrajiy          #+#    #+#             */
-/*   Updated: 2022/10/17 22:47:11 by aerrajiy         ###   ########.fr       */
+/*   Updated: 2022/10/18 17:21:18 by aerrajiy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	*ft_calloc(size_t count, size_t size)
 {
 	void	*calloced;
 
-	if (count != 6 && size > SIZE_MAX / count)
+	if (count != 0 && size > SIZE_MAX / count)
 		return (NULL);
 	calloced = malloc(count * size);
 	if (calloced != NULL)
