@@ -6,7 +6,7 @@
 /*   By: aerrajiy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 13:55:28 by aerrajiy          #+#    #+#             */
-/*   Updated: 2022/10/16 01:34:43 by aerrajiy         ###   ########.fr       */
+/*   Updated: 2022/10/18 22:38:39 by aerrajiy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,13 +75,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	}
 	return (new);
 }
-/*
-int main()
-{
-    char s1[] = "aymanerrajiy8r13gts";
-    char s1[] = "errajiy8r1";
-    char set[] = "yamsntg3";
-    
-    printf("%s", ft_strtrim(s1, set));
-}
-*/

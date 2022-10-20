@@ -6,7 +6,7 @@
 /*   By: aerrajiy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 01:30:38 by aerrajiy          #+#    #+#             */
-/*   Updated: 2022/10/16 17:13:33 by aerrajiy         ###   ########.fr       */
+/*   Updated: 2022/10/19 00:25:28 by aerrajiy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,19 +24,3 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
-
-/*void pr(int arr[], int n)
-{
-   for (int i=0; i<n; i++)
-      printf("%d ", arr[i]);
-}
-
-int main()
-{
-	int str[10] = {1,1,1,1,1,1,1,1,1,1};
-
-	memset(str, 1, 128 * sizeof(int));
-	pr(str, 10);
-	return 0;
-}
-*/

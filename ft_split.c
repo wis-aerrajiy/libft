@@ -6,11 +6,10 @@
 /*   By: aerrajiy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 12:19:17 by aerrajiy          #+#    #+#             */
-/*   Updated: 2022/10/16 17:42:19 by aerrajiy         ###   ########.fr       */
+/*   Updated: 2022/10/18 22:37:37 by aerrajiy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include "libft.h"
 
 static int	words_count(char *s, char c)
@@ -100,27 +99,3 @@ char	**ft_split(char const *s, char c)
 	}
 	return (tabs);
 }
-/*
-int main()
-{
-    char str[] = "ayman***test***1337*seven****\0****";
-    char c = '*';
-	int i = 0;
-	char **tab = ft_split(str, c);
-	if(tab != NULL)
-	{
-		while(tab[i] != NULL)
-		{
-			printf("%s\n", tab[i]);
-			i++;
-		}
-	}
-	
-	// int i =0;
-    // while(p[i])
-    // {
-    //     if (p[i])
-    //         printf("%s\n", p[i++]);
-    // }
-}
-*/

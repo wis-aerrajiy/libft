@@ -6,7 +6,7 @@
 /*   By: aerrajiy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 20:57:06 by aerrajiy          #+#    #+#             */
-/*   Updated: 2022/10/18 13:51:42 by aerrajiy         ###   ########.fr       */
+/*   Updated: 2022/10/18 22:38:18 by aerrajiy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,10 +37,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	}
 	return (new);
 }
-/*
-int main()
-{
-	char str[] = "qwertyuiop";
-	printf("%s", ft_strmapi(str, f));
-}
-*/

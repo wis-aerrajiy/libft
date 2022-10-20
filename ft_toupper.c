@@ -6,7 +6,7 @@
 /*   By: aerrajiy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 01:50:27 by aerrajiy          #+#    #+#             */
-/*   Updated: 2022/10/12 23:54:05 by aerrajiy         ###   ########.fr       */
+/*   Updated: 2022/10/18 22:38:52 by aerrajiy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,3 @@ int	ft_toupper(int c)
 	}
 	return (c);
 }
-
-/*
-int main()
-{
-	printf("%d", ft_toupper('d'));
-	return (0);
-}
-*/

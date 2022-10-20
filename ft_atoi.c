@@ -6,7 +6,7 @@
 /*   By: aerrajiy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 02:20:18 by aerrajiy          #+#    #+#             */
-/*   Updated: 2022/10/18 13:40:37 by aerrajiy         ###   ########.fr       */
+/*   Updated: 2022/10/19 00:24:35 by aerrajiy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,11 +40,3 @@ int	ft_atoi(const char *str)
 		return (0);
 	return ((result * sign));
 }
-/*
-int main()
-{
-	char s[] = "-99999999999999999999999999";
-	printf("%d\n", ft_atoi(s));
-	printf("%d", atoi(s));
-}
-*/

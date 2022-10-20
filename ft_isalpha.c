@@ -6,7 +6,7 @@
 /*   By: aerrajiy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 01:28:56 by aerrajiy          #+#    #+#             */
-/*   Updated: 2022/10/12 23:54:05 by aerrajiy         ###   ########.fr       */
+/*   Updated: 2022/10/18 22:35:19 by aerrajiy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,3 @@ int	ft_isalpha(int c)
 	}
 	return (0);
 }
-
-/*int main()
-{
-	printf("%d \n", isalpha('\0') );
-	printf("%d \n", ft_isalpha('\0') );
-}*/

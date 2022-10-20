@@ -6,7 +6,7 @@
 /*   By: aerrajiy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/18 14:35:44 by aerrajiy          #+#    #+#             */
-/*   Updated: 2022/10/18 21:16:07 by aerrajiy         ###   ########.fr       */
+/*   Updated: 2022/10/18 22:15:49 by aerrajiy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,8 @@
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*temp;
-	if(!*lst)
+
+	if (!*lst)
 		return ;
 	while ((*lst))
 	{

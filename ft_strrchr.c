@@ -6,7 +6,7 @@
 /*   By: aerrajiy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 01:57:15 by aerrajiy          #+#    #+#             */
-/*   Updated: 2022/10/17 17:38:13 by aerrajiy         ###   ########.fr       */
+/*   Updated: 2022/10/18 22:38:31 by aerrajiy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,10 +32,3 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)s + ft_strlen(s));
 	return (0);
 }
-/*
-int main()
-{
-	char c[] = "ayman aerrajiy.cor.e_isPSD.";
-	printf("%s", ft_strrchr(c, '.'));
-}
-*/

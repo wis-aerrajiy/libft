@@ -1,22 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_lstiter_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aerrajiy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/12 01:29:15 by aerrajiy          #+#    #+#             */
-/*   Updated: 2022/10/18 22:35:25 by aerrajiy         ###   ########.fr       */
+/*   Created: 2022/10/18 22:10:07 by aerrajiy          #+#    #+#             */
+/*   Updated: 2022/10/18 22:16:15 by aerrajiy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(int c)
+void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
-	if (c >= 48 && c <= 57)
+	if (!lst)
+		return ;
+	while (lst)
 	{
-		return (1);
+		f(lst->content);
+		lst = lst->next;
 	}
-	return (0);
 }
