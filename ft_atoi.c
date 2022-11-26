@@ -33,10 +33,11 @@ int	ft_atoi(const char *str)
 	{
 		result = result * 10 + (str[i] - '0');
 		i++;
+		if (result > 9223372036854775807 && sign == 1)
+			return (-1);
+		else if (result > 9223372036854775807 && sign == -1)
+			return (0);
 	}
-	if (result > 9223372036854775807 && sign == 1)
-		return (-1);
-	else if (result > 9223372036854775807 && sign == -1)
-		return (0);
+	
 	return ((result * sign));
 }
